@@ -1,0 +1,80 @@
+body{
+margin:0;
+font:normal 16px sans-serif;
+}
+.navbar{
+  float: left;
+}
+.profile{
+  float: right;
+  margin-top: 1%;
+}
+.table-box{
+margin:50px auto;
+}
+.table-row{
+display:table;
+width:98%;
+margin-right: 20px;
+margin-left: 20px;
+font-family: calibari;
+background: transparent;
+padding: -10px 0;
+color:#8caaa7;
+font-size: 30px;
+box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3)
+}
+.table-cell{
+display: table-cell;
+width: 30%;
+text-align: center;
+padding:1px;
+border-right: 1px solid #8caaa7;
+vertical-align:middle;
+margin-left:20px;
+margin-right:20px;
+
+}
+#sidebar{
+position: relative;
+width: 15%;
+height: 50%;
+left: -15%;
+background-color: white;
+}
+
+#sidebar li{
+
+color: black;
+font-size: 10px;
+padding: 10px;
+border-bottom: 1px solid gray;
+text-align: center;
+}
+
+.toggle-btn{
+
+position: absolute;
+left: 105%;
+top: 15px;
+}
+
+.toggle-btn span{
+
+display: block;
+background-color: black;
+width: 25px;
+height: 3px;
+margin: 1px;
+}
+
+#sidebar.active{
+left: 0;
+}
+
+.part_1{
+background-color:#eee;
+color:#000000;
+margin-left:20px;
+margin-right:20px;
+}
