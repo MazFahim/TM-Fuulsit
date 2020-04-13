@@ -20,10 +20,10 @@
     <div>
       <?php
         if (isset($_SESSION['userid'])) {
-            echo '<form action="includes/logout.inc.php" method="post">
-        
+            echo '<form action="logout.inc.php" method="post">
+
             <button type="submit" name="logout-submit">Logout</button>
-        
+
             </form>';
           }
           else{
@@ -31,12 +31,12 @@
             <input type="text" name="mailuid" placeholder="Username/Email"></br>
             <input type="password" name="pwd" placeholder="password"></br>
             <button type="submit" name="login-submit">Login</button>
-        
+
       </form>
       <a href="signup.php">Signup</a>';
           }
       ?>
-      
+
     </div>
   </body>
 </html>
